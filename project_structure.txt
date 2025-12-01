@@ -1,0 +1,196 @@
+Folder PATH listing for volume Windows
+Volume serial number is 0AE0-905A
+C:.
+|   .gitignore
+|   grammar.lark
+|   makekey.sh
+|   PLAN.md
+|   project_structure.txt
+|   pyproject.toml
+|   README.md
+|   repo_structure.txt
+|   settings.toml
+|   
++---.vscode
+|       launch.json
+|       settings.json
+|       
++---config
+|       default.toml
+|       
++---data
+|   |   .gitkeep
+|   |   
+|   +---attributes
+|   |       health.toml
+|   |       stamina.toml
+|   |       
+|   +---nodes
+|   |       arena_gladiator_pit.toml
+|   |       building_starport.toml
+|   |       city_nova.toml
+|   |       dungeon_darkspire.toml
+|   |       field_nova_outskirts.toml
+|   |       forest_greenveil.toml
+|   |       planet_terra.toml
+|   |       
+|   +---rooms
+|   |       inn_starrest.toml
+|   |       shop_armory.toml
+|   |       shop_basic.toml
+|   |       
+|   \---schemas
+|           node_base.toml
+|           
++---logs
+|       .gitkeep
+|       
++---migrations
+|       001_initial.sql
+|       
++---muforge
+|   |   commands.py
+|   |   engine.py
+|   |   loader.py
+|   |   models.py
+|   |   procedural.py
+|   |   schemas.py
+|   |   __init__.py
+|   |   
+|   +---game
+|   |   |   application.py
+|   |   |   listeners.py
+|   |   |   __init__.py
+|   |   |   __main__.py
+|   |   |   
+|   |   +---commands
+|   |   |       base.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---db
+|   |   |       auth.py
+|   |   |       base.py
+|   |   |       characters.py
+|   |   |       users.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---entities
+|   |   |       base.py
+|   |   |       characters.py
+|   |   |       mixins.py
+|   |   |       npcs.py
+|   |   |       objects.py
+|   |   |       players.py
+|   |   |       structures.py
+|   |   |       utils.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---routers
+|   |   |       api_game.py
+|   |   |       auth.py
+|   |   |       characters.py
+|   |   |       system.py
+|   |   |       users.py
+|   |   |       utils.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---systems
+|   |   |       events.py
+|   |   |       locations.py
+|   |   |       locations.py.old
+|   |   |       locks.py
+|   |   |       sessions.py
+|   |   |       __init__.py
+|   |   |       
+|   |   \---__pycache__
+|   |           application.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           __main__.cpython-312.pyc
+|   |           
+|   +---portal
+|   |   |   application.py
+|   |   |   base_connection.py
+|   |   |   events.py
+|   |   |   ssh.py
+|   |   |   telnet.py
+|   |   |   __init__.py
+|   |   |   __main__.py
+|   |   |   
+|   |   +---commands
+|   |   |       base.py
+|   |   |       help.py
+|   |   |       system.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---parsers
+|   |   |       base.py
+|   |   |       character.py
+|   |   |       login.py
+|   |   |       user.py
+|   |   |       __init__.py
+|   |   |       
+|   |   \---__pycache__
+|   |           application.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           __main__.cpython-312.pyc
+|   |           
+|   +---shared
+|   |   |   application.py
+|   |   |   boot.py
+|   |   |   commands.py
+|   |   |   service.py
+|   |   |   utils.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---events
+|   |   |   |   base.py
+|   |   |   |   characters.py
+|   |   |   |   system.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---__pycache__
+|   |   |           base.cpython-312.pyc
+|   |   |           system.cpython-312.pyc
+|   |   |           __init__.cpython-312.pyc
+|   |   |           
+|   |   +---models
+|   |   |       auth.py
+|   |   |       characters.py
+|   |   |       fields.py
+|   |   |       mixins.py
+|   |   |       users.py
+|   |   |       validators.py
+|   |   |       __init__.py
+|   |   |       
+|   |   \---__pycache__
+|   |           application.cpython-312.pyc
+|   |           service.cpython-312.pyc
+|   |           utils.cpython-312.pyc
+|   |           __init__.cpython-312.pyc
+|   |           
+|   \---__pycache__
+|           commands.cpython-312.pyc
+|           engine.cpython-312.pyc
+|           loader.cpython-312.pyc
+|           models.cpython-312.pyc
+|           procedural.cpython-312.pyc
+|           schemas.cpython-312.pyc
+|           __init__.cpython-312.pyc
+|           
++---remaining
+|       game_schemas.py
+|       run_game.py
+|       run_portal.py
+|       virtual_map.py
+|       web_api.py
+|       
+\---static
+    |   index.html
+    |   
+    +---css
+    |       style.css
+    |       
+    \---js
+            game.js
+            main.js
+            
